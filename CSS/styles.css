@@ -1,0 +1,128 @@
+div {
+  margin: 100px auto;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto Slab;
+  text-align: center;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #EAF6F6;
+  border-width: 10px;
+  width: 20%;
+}
+
+h1 {
+  margin-top: 0;
+  padding-top: 100px;
+  font-family: Tangerine;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: Quicksand;
+  font-size: 2.5rem;
+  /*Different ways of specifying font sizes:
+  100% = em = 16 px
+  However, px is static (changing text size on browser has no effect, unlike em or % which are dynamic)
+  But em and % add on top of what you specified for the element's parent element
+  So if body is set to 2em and h2 is set to 5em, in actuality h2 will be 10 em
+  But rem does not have that feature. So rem is the best unit for font sizing.*/
+  color: #66BFBF;
+  font-weight: normal;
+  line-height: 2;
+}
+
+h3 {
+  font-family: Quicksand;
+  color: #11999E;
+}
+
+.intro {
+  color: #40514E;
+}
+
+.skill-row {
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.footer-link {
+  position:relative;
+  bottom: 15px;
+  color: #11999E;
+  margin: 0 5%;
+}
+
+.pfp {
+  height: 200px;
+  width: 200px;
+}
+
+.skill1-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill2-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.martial-arts-desc {
+  margin-bottom: 200px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 75px;
+  right: 350px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 350px;
+  top: 250px;
+}
+
+.Top-container {
+  margin-top: 0;
+  background-color: #EAF6F6;
+}
+
+.Middle-container {
+  margin: 0 auto;
+}
+
+.btn {
+  font-family: Quicksand;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+  border-radius: 8px;
+  padding: 10px;
+  background: linear-gradient(to bottom, #11cdd4 0%, #11999e 100%);
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #30e3cb 0%, #2bc4ad 100%);
+}
+
+.signature {
+  color: #EAF6F6;
+  margin-bottom: 0;
+}
+
+.Bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0;
+  margin-bottom: 0;
+}
